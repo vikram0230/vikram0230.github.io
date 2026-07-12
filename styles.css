@@ -285,6 +285,14 @@ main {
   align-items: baseline;
   gap: 18px;
   flex-wrap: wrap;
+  text-decoration: none;
+  color: var(--fg);
+  transition: border-color .3s var(--ease), transform .4s var(--ease);
+}
+.publication:hover {
+  border-color: var(--accent);
+  border-style: solid;
+  transform: translateY(-3px);
 }
 .pub-label {
   font-size: 12px;
@@ -293,6 +301,13 @@ main {
   color: var(--accent);
 }
 .publication p { font-family: 'Fraunces', serif; font-size: 18px; }
+.pub-venue {
+  font-size: 13px;
+  color: var(--muted);
+  margin-left: auto;
+  transition: color .3s var(--ease);
+}
+.publication:hover .pub-venue { color: var(--accent); }
 
 /* ---------- Contact ---------- */
 .contact { text-align: left; }

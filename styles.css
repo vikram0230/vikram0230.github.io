@@ -277,7 +277,7 @@ main {
   border-radius: 100px;
 }
 .publication {
-  margin-top: 26px;
+  margin-bottom: 26px;
   padding: 26px 30px;
   border: 1px dashed var(--line);
   border-radius: 16px;

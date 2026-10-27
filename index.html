@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Vikram Harikrishnan — AI/ML Engineer</title>
-  <meta name="description" content="Vikram Harikrishnan — Machine Learning Engineer building production ML infrastructure. MS Computer Science, University of Illinois Chicago." />
+  <title>Vikram Harikrishnan — AI Engineer</title>
+  <meta name="description" content="Vikram Harikrishnan — AI Engineer building production ML systems and LLM workflows. MS Computer Science, University of Illinois Chicago." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Fraunces:opsz,wght@9..144,400;9..144,500&display=swap" rel="stylesheet" />
@@ -30,15 +30,14 @@
 
     <!-- HERO -->
     <section class="hero">
-      <p class="eyebrow reveal">AI / ML Engineer · Chicago</p>
+      <p class="eyebrow reveal">AI Engineer · Chicago</p>
       <h1 class="reveal">
         Vikram<br />Harikrishnan
       </h1>
       <p class="lede reveal">
-        Machine Learning Engineer building production ML infrastructure and
-        automated workflows that accelerate model development. I ship predictive
-        models and scalable systems with <em>Python</em>, <em>PyTorch</em>, and
-        cloud infrastructure.
+        AI Engineer building production ML systems and automated workflows that
+        accelerate model development. I ship predictive models and scalable
+        systems with <em>Python</em>, <em>PyTorch</em>, and cloud infrastructure.
       </p>
       <div class="hero-actions reveal">
         <a class="btn" href="#projects">View projects</a>
@@ -59,7 +58,7 @@
       </div>
       <div class="about-grid">
         <p class="reveal">
-          I'm a machine learning engineer working at the intersection of
+          I'm an AI engineer working at the intersection of
           <em>computer vision</em>, <em>retrieval-augmented generation</em>, and
           <em>agentic AI</em>. I like taking research-grade models and turning
           them into systems that actually run.
@@ -102,35 +101,27 @@
       </div>
       <ol class="timeline">
         <li class="reveal">
-          <div class="tl-when">2025 — 2026</div>
+          <div class="tl-when">2025 — Present</div>
           <div class="tl-what">
             <h3>Machine Learning Engineer</h3>
             <p class="tl-org">University of Illinois Chicago</p>
-            <p class="tl-desc">Cancer risk prediction research using Vision Transformers and survival analysis models.</p>
+            <p class="tl-desc">LDCT lung cancer risk modeling with Vision Transformers on HPC; clinical survival baselines contributing to a JCO publication; on-prem LLM pipeline for Lung-RADS extraction (+80% radiology throughput).</p>
           </div>
         </li>
         <li class="reveal">
           <div class="tl-when">2023 — 2024</div>
           <div class="tl-what">
-            <h3>Software Engineer</h3>
+            <h3>Full Stack Engineer</h3>
             <p class="tl-org">Finvisage · Bengaluru</p>
-            <p class="tl-desc">Built OCR + OpenAI document ingestion pipelines. Led high-transaction financial apps and ML automation for enterprise banking.</p>
+            <p class="tl-desc">Built FX market-data ingestion (asyncio, Flask, Redis, PostgreSQL) cutting p95 read latency 120 ms → 24 ms; led Flutter trading app for 10,000+ field agents.</p>
           </div>
         </li>
         <li class="reveal">
           <div class="tl-when">2022</div>
           <div class="tl-what">
-            <h3>Software Engineer</h3>
+            <h3>AI Engineer</h3>
             <p class="tl-org">Applied Data Finance · Chennai</p>
-            <p class="tl-desc">Developed microservices for real-time market condition classification and prediction systems.</p>
-          </div>
-        </li>
-        <li class="reveal">
-          <div class="tl-when">2020 — 2021</div>
-          <div class="tl-what">
-            <h3>Software Engineer</h3>
-            <p class="tl-org">Astutex · PiOne · Webknot</p>
-            <p class="tl-desc">Early engineering roles across product and internship stints in Chennai and Bengaluru.</p>
+            <p class="tl-desc">OCR + OpenAI pipeline for paystubs, tax returns, and bank statements — doubled ingestion rate and cut manual loan processing 85%, with extraction guardrails.</p>
           </div>
         </li>
       </ol>
@@ -154,8 +145,15 @@
           <div class="p-top">
             <h3>Care Navigator</h3>
           </div>
-          <p>A multi-tenant RAG foundation for health-benefits Q&amp;A — grounding LLM answers in each organization's own plan documents.</p>
+          <p>Multi-tenant RAG for health-benefits Q&amp;A with LangChain, ChromaDB, and Ollama — metadata filtering, Redis caching, and Minikube/KEDA deployment.</p>
           <span class="tag">Python · RAG</span>
+        </a>
+        <a class="project reveal" href="https://github.com/vikram0230/Filesystem-MCP-Server" target="_blank" rel="noopener">
+          <div class="p-top">
+            <h3>Filesystem MCP Server</h3>
+          </div>
+          <p>Local Model Context Protocol server exposing sandboxed file tools over stdio — path canonicalization and symlink checks keep clients inside allowed roots.</p>
+          <span class="tag">Python · MCP</span>
         </a>
         <a class="project reveal" href="https://github.com/ethereal-developers/OpenScan" target="_blank" rel="noopener">
           <div class="p-top">
@@ -170,31 +168,8 @@
             <h3>Netflicks</h3>
             <span class="stars">★ 5</span>
           </div>
-          <p>A movie recommendation system delivering personalized film suggestions through collaborative and content-based filtering.</p>
+          <p>Hybrid movie recommender (ALS, content-based, popularity) behind a Flask API — MLflow tracking, Jenkins CI/CD, and Dockerized train/validate/serve.</p>
           <span class="tag">Python · RecSys</span>
-        </a>
-        <a class="project reveal" href="https://github.com/vikram0230/Lung-RADS--Extractor" target="_blank" rel="noopener">
-          <div class="p-top">
-            <h3>Lung-RADS Extractor</h3>
-          </div>
-          <p>Extracts Lung-RADS scores from unstructured radiology notes using large language models.</p>
-          <span class="tag">Python · LLM</span>
-        </a>
-        <a class="project reveal" href="https://github.com/vikram0230/DoorStep" target="_blank" rel="noopener">
-          <div class="p-top">
-            <h3>DoorStep</h3>
-            <span class="stars">★ 22</span>
-          </div>
-          <p>A minimalist rental management app built with Flutter — tracking tenants, payments, and properties in one clean surface.</p>
-          <span class="tag">Dart · Flutter</span>
-        </a>
-        <a class="project reveal" href="https://github.com/vikram0230/RoomWise" target="_blank" rel="noopener">
-          <div class="p-top">
-            <h3>RoomWise</h3>
-            <span class="stars">★ 1</span>
-          </div>
-          <p>Hotel booking system optimizing revenue and minimizing cancellations through customer prioritization.</p>
-          <span class="tag">Data Science</span>
         </a>
       </div>
     </section>
@@ -206,7 +181,7 @@
         <h2>Let's talk</h2>
       </div>
       <p class="contact-lede reveal">
-        Open to ML engineering roles and research collaborations.
+        Open to AI engineering roles and research collaborations.
       </p>
       <a class="mail reveal" href="mailto:vikramharikrishnan2000@gmail.com">vikramharikrishnan2000@gmail.com</a>
       <div class="socials reveal">
